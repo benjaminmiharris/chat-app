@@ -9,3 +9,21 @@ To get started with this application, you will need to clone this repository and
 <h3>Prerequisites</h3>
 Node.js (version 12 or later)
 Git
+
+
+<h2>How to use the Application</h2>
+
+<h3>Creating a Chat Room</h3>
+To create a new chat room, click on the "Create Room" button on the home page.
+Enter the name of the room you want to create and click on the "Create" button.
+You will be redirected to the chat room page, where you can start chatting with other users.
+
+J<h3>oining a Chat Room</h3>
+To join an existing chat room, click on the "Join Room" button on the home page.
+Enter the name of the room you want to join and click on the "Join" button.
+You will be redirected to the chat room page, where you can start chatting with other users.
+
+<h3>Technologies Used</h3>
+
+React
+Express
