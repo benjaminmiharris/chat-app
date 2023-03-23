@@ -27,3 +27,4 @@ You will be redirected to the chat room page, where you can start chatting with 
 
 React
 Express
+Socket.io
