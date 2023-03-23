@@ -18,7 +18,7 @@ To create a new chat room, click on the "Create Room" button on the home page.
 Enter the name of the room you want to create and click on the "Create" button.
 You will be redirected to the chat room page, where you can start chatting with other users.
 
-J<h3>oining a Chat Room</h3>
+<h3>Joining a Chat Room</h3>
 To join an existing chat room, click on the "Join Room" button on the home page.
 Enter the name of the room you want to join and click on the "Join" button.
 You will be redirected to the chat room page, where you can start chatting with other users.
