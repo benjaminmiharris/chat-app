@@ -38,7 +38,7 @@ function App() {
               setRoom(e.target.value);
             }}
           />
-          <button onClick={joinRoom}>Join A Room</button>
+          <button onClick={joinRoom}>Join A Room...</button>
         </div>
       ) : (
         <Chat socket={socket} username={username} room={room} />
