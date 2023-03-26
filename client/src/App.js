@@ -5,7 +5,7 @@ import "./App.css";
 
 const BASE_URL = process.env.REACT_APP_API_URL;
 
-const socket = io.connect(`${BASE_URL}/`);
+const socket = io.connect(`${BASE_URL}`);
 
 function App() {
   const [username, setUsername] = useState("");
