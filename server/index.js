@@ -32,6 +32,6 @@ io.on("connection", (socket) => {
   });
 });
 
-server.listen(3005, () => {
+server.listen(process.env.PORT || PORT, () => {
   console.log("SERVER RUNNING PORT 3005");
 });
