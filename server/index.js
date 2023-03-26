@@ -34,12 +34,8 @@ io.on("connection", (socket) => {
   });
 });
 
-app.post("/test", (req, res) => {
-  return res.status(200).json({
-    success: true,
-    message:
-      "Looks like you already have an account with this email. Please try logging in!",
-  });
+app.get("/test", (req, res) => {
+  return res.send("Hello world");
 });
 
 server.listen(process.env.PORT, () => {
