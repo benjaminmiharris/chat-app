@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import ScrollToBottom from "react-scroll-to-bottom";
-import ReactScrollToBottom from "react-scroll-to-bottom";
 
 const Chat = ({ socket, username, room }) => {
   const [currentMessage, setCurrentMessage] = useState("");
@@ -42,7 +41,7 @@ const Chat = ({ socket, username, room }) => {
             return (
               <div
                 className="message"
-                id={username == messageContent.user ? "you" : "other"}
+                id={username === messageContent.user ? "you" : "other"}
               >
                 <div className="message-content">
                   <p>{messageContent.message}</p>
