@@ -1,0 +1,16 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "A chat app built with a monorepo architecture",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "start": "npm run start:client && npm run start:server",
+    "start:client": "cd client && npm start",
+    "start:server": "cd server &&  nodemon index.js"
+  }
+}
