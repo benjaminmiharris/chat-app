@@ -34,9 +34,9 @@ io.on("connection", (socket) => {
   });
 });
 
-app.get("/test", (req, res) => {
+app.post("/test", (req, res) => {
   return res.status(200).json({
-    success: false,
+    success: true,
     message:
       "Looks like you already have an account with this email. Please try logging in!",
   });
