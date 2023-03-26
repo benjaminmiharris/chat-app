@@ -34,6 +34,14 @@ io.on("connection", (socket) => {
   });
 });
 
+app.get("/test", req, (res) => {
+  return res.status(200).json({
+    success: false,
+    message:
+      "Looks like you already have an account with this email. Please try logging in!",
+  });
+});
+
 server.listen(process.env.PORT, () => {
   console.log(process.env.PORT);
   console.log("SERVER RUNNING PORT 3005");
